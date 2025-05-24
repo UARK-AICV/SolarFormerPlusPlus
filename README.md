@@ -10,6 +10,7 @@ The dataset is located in the `De-Solar Dataset` folder and is organized into th
 - **`Original/`** – Includes the original UAV images, their corresponding annotation JSON files (LabelMe format), and segmentation masks.
 - **`Cropped_Folder/`** – Contains cropped images of solar panels extracted from the originals. These images are used as input for model training.
 - **`Ground_Folder/`** – Contains ground images from the dataset
+- **`SolarPV/`** – Contains the dataset for Solarformer++
 This structure supports a complete training and evaluation pipeline for obstruction-aware solar PV analysis.
 
 The De-Solar Dataset can be downloaded [Here](https://uark.box.com/s/89l7w5g5geeuhg9578wsc7998pdogjlu)
@@ -22,7 +23,7 @@ We recommend following the installation guidelines provided in the SolarFormer++
 
 Inside the `scripts/` directory, you will find ready-to-use shell scripts for training, testing, demoing, and visualizing results for each obstruction type. 
 
-> **Note**: Before running any script, be sure to update the `PathToSolarFormer` variable in the script to match your local directory structure.
+> **Note**: Before running any script, be sure to update the `PathToSolarFormer` variable in the script to match your local directory structure and download SolarPV dataset to include inside in SolarFormer++/mask2former.
 
 ## 🧪 Running with MMSegmentation
 
