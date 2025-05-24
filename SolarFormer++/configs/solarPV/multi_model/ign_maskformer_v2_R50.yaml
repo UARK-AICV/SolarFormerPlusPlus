@@ -1,0 +1,12 @@
+_BASE_: ign_maskformer_base.yaml
+MODEL:
+  SEM_SEG_HEAD:
+    PIXEL_DECODER_NAME: "MSDeformAttnPixelDecoderv2"
+    DEFORMABLE_TRANSFORMER_ENCODER_IN_FEATURES: "['res2', 'res3','res4','res5']"
+  MASK_FORMER:
+    NUM_FEATURE_LEVELS: 4
+SOLVER:
+  IMS_PER_BATCH: 1
+  MAX_ITER: 100000
+TEST:
+  EVAL_PERIOD: 8661
