@@ -1,5 +1,7 @@
 ## De-Solar Dataset
 
+The De-Solar Dataset and pre-trained models can be downloaded [Here](https://uark.box.com/s/89l7w5g5geeuhg9578wsc7998pdogjlu)
+
 ## 📦 De-Solar Dataset
 
 The **De-Solar Dataset** is a high-quality UAV-based dataset developed to support obstruction localization and performance assessment in solar PV systems. It contains over 3,500 manually labeled images captured at altitudes ranging from 15 to 50 feet, each annotated with polygon masks for common surface obstructions such as branches, dirt, leaves, bird droppings, and paper. In addition to the image data, the dataset includes timestamp-aligned voltage readings and environmental metadata, enabling detailed analysis of how specific obstructions affect panel performance.
@@ -13,7 +15,7 @@ The dataset is located in the `De-Solar Dataset` folder and is organized into th
 - **`SolarPV/`** – Contains the dataset for Solarformer++
 This structure supports a complete training and evaluation pipeline for obstruction-aware solar PV analysis.
 
-The De-Solar Dataset can be downloaded [Here](https://uark.box.com/s/89l7w5g5geeuhg9578wsc7998pdogjlu)
+
 
 ## SolarFormer++
 
